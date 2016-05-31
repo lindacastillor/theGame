@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-md-{{$ctrl.square_size}}
+              col-sm-{{$ctrl.square_size}}
+              col-xs-{{$ctrl.square_size}}
+              square"
+       style="background:{{::$ctrl.getColor($index)}};"
+       ng-repeat="t in $ctrl.number_squares track by $index">
+    {{$index}}
+  </div>
+</div>

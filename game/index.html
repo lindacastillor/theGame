@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="thegame">
+<head>
+  <title>Memory</title>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet"  href="assets/bootstrap.min.css"/>
+  <link type="text/css" rel="stylesheet"  href="assets/bootstrap-theme.min.css"/>
+  <link type="text/css" rel="stylesheet"  href="assets/game.css"/>
+
+</head>
+<body>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="/#/">Home</a></li>
+      </ul>
+    </nav>
+
+  <div class="container">
+    <section ng-view></section>
+  </div>
+
+
+  <script type="text/javascript" src="lib/angular.min.js"></script>
+  <script type="text/javascript" src="lib/angular-route.min.js"></script>
+  <script type="text/javascript" src="app/app.js"></script>
+  <script type="text/javascript" src="app/config.js"></script>
+  <!-- COMPONENTES -->
+  <script type="text/javascript" src="app/home/component.js"></script>
+  <script type="text/javascript" src="app/board/component.js"></script>
+
+</body>
+</html>

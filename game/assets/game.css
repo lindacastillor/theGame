@@ -1,0 +1,12 @@
+.square{
+    background:#999999;
+    height: 150px;
+    border:2px solid white;
+}
+.col-md-2.square{
+    height:120px;
+}
+
+color{
+    color:#eee;
+}
