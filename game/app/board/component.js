@@ -34,8 +34,46 @@
     board.number_squares = new Array(number_squares);
     board.square_size= bootstrap/board.size;
 
-    function getColor(i){
-      return colors[i];
+    var ArrayRandom =[];
+
+    function getColor(){
+      var i = parseInt( Math.random() *(colors.length+1), 10); 
+      // return colors[i]; //regresa un color random del arreglo indice
+      ArrayRandom.push(colors[i]); //ese color se agrega al color random que arroja el colors[i]
+      console.log(ArrayRandom);
+
+      return colors[i]
+      // return ArrayRandom; //regresa el arreglo para tenerlo disponible
+
     }
+
+//    var ArrayRandom =[]; //esto es un arreglo vacio
+    // var num_random = Math.random(); //variable que guarda el numero aleatoriamente 
+    // ArrayRandom.push(num_random);//agrega a ese arreglo el numero que esta generando
+
+   // function pushNumber(){ //que guarda los numeros
+
+      //for (var i = 0; i < 1; i++) { //ciclo, i indica que tiene que empezar desde el indice 0 hasta un rango de 10 y vaya sumando 1 (i++) +=numero 
+        //var i = parseInt( Math.random() *(colors.length+1), 10); // genera un número random de los valores del array de los colores length es entero multiplica un numero random por el total de elementos que tiene en el arreglo base 10
+        //ArrayRandom.push(i); //agrega el numero que genera el parseInt
+      }
+//      console.log(ArrayRandom) //imprime los numeros guardados en [] array vacio
+
+
+
+    }
+    
+
+    // ArrayRandom.append() //a esea variable que es un arreglo le va a agregar algo = append 
+
+
+
+
   }
 })();
+
+
+
+
+
+

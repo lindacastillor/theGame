@@ -2,11 +2,18 @@
     background:#999999;
     height: 150px;
     border:2px solid white;
+    opacity: 0.5;
 }
 .col-md-2.square{
     height:120px;
 }
 
-color{
+.color{
     color:#eee;
+}
+.opacidad{
+	background:#999999;
+    height: 150px;
+    border:2px solid white;
+	opacity: 1;
 }
